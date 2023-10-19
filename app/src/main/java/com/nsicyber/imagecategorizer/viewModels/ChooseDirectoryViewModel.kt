@@ -7,25 +7,19 @@ import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Matrix
 import android.net.Uri
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.nsicyber.imagecategorizer.models.ClassifiedFolderModel
 import com.nsicyber.imagecategorizer.repositories.ImageClassifierRepository
-import com.nsicyber.imagecategorizer.utils.encode
 import com.nsicyber.imagecategorizer.utils.encodeUTF
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException
-import java.util.logging.Handler
 import javax.inject.Inject
 
 

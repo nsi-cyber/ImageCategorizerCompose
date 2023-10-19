@@ -4,15 +4,10 @@ package com.nsicyber.imagecategorizer.viewModels
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModel
 import com.google.android.play.core.review.ReviewManagerFactory
 import dagger.hilt.android.lifecycle.HiltViewModel
-import java.util.logging.Handler
 import javax.inject.Inject
 
 

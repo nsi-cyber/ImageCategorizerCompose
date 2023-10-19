@@ -12,7 +12,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -31,7 +30,6 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import com.nsicyber.imagecategorizer.R
 import com.nsicyber.imagecategorizer.viewModels.CreditButtonsViewModel
-
 
 @Composable
 fun SuccessScreen(navController: NavController) {
@@ -60,7 +58,7 @@ fun SuccessScreen(navController: NavController) {
             contentDescription = "image description",
             contentScale = ContentScale.Fit
         )
-Spacer(modifier = Modifier.height(72.dp))
+        Spacer(modifier = Modifier.height(72.dp))
         Column {
             Row(
                 modifier = Modifier
