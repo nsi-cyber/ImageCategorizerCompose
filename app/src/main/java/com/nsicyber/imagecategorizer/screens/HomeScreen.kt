@@ -147,7 +147,7 @@ fun HomeScreen(navHostController: NavHostController) {
     Column(Modifier.padding(horizontal = 16.dp, vertical = 32.dp)) {
 
         Text(
-            text = "Classify Images",
+            text = "Image Categorizer",
             style = TextStyle(
                 fontSize = 20.sp,
                 fontWeight = FontWeight(600),
